@@ -5,16 +5,16 @@ var respecConfig = {
 	includePermalinks: true,
 	permalinkEdge: true,
 	permalinkHide: false,
-  noRecTrack: true,
+  	noRecTrack: true,
 
 	// specification status (e.g., WD, LC, NOTE, etc.). If in doubt use ED.
 	specStatus: "ED",
 	//crEnd:                "2012-04-30",
 	//perEnd:               "2013-07-23",
-	//publishDate:          "2024-05-28",
+	//publishDate:          "2025-05-06",
 	
 	// the specifications short name, as in https://www.w3.org/TR/short-name/
-	shortName: "wcag2mobile",
+	shortName: "wcag2mobile-22",
 	
 	// if you wish the publication date to be other than today, set this
 	// publishDate:  "2009-08-06",
@@ -30,48 +30,60 @@ var respecConfig = {
 	// editors, add as many as you like
 	// only "name" is required
 	editors: [ 
-    {
-      name: "Jan Jaap de Groot",
-      mailto: "janjaap@abra.nl",
-      company: "Abra",
-      companyURI: "https://abra.ai",
-      w3cid: 137024
-	  },
-    {
-      name: "Jamie Herrera"
-    },
-    {
-      name: "Joe Humbert"
-    },
-    {
-      name: "Julian Kittelson-Aldred"
-    }
-  ],
-	
-	// authors, add as many as you like.
-	// This is optional, uncomment if you have authors as well as editors.
-	// only "name" is required. Same format as editors.
-	
-	//authors:  [
-	//    { name: "Your Name", url: "http://example.org/",
-	//      company: "Your Company", companyURI: "http://example.com/" },
-	//],
-	
-	/*
-	alternateFormats: [
-	{ uri: 'aria-diff.html', label: "Diff from Previous Recommendation" } ,
-	{ uri: 'aria.ps', label: "PostScript version" },
-	{ uri: 'aria.pdf', label: "PDF version" }
+		{
+			name: "Jan Jaap de Groot",
+			mailto: "janjaap@abra.ai",
+			company: "Abra",
+			companyURI: "https://abra.ai",
+			w3cid: 137024
+		},
+		{
+			name: "Joe Humbert",
+			company: "Invited Expert",
+			w3cid: 128124
+		},
+		{
+			name: "Tanya van Workum",
+			mailto: "tanya@abra.ai",
+			company: "Abra",
+			companyURI: "https://abra.ai",
+			w3cid: 162609
+		},
 	],
-	 */
-	
-	// errata: 'https://www.w3.org/2010/02/rdfa/errata.html',
-	
+  	formerEditors: [
+		{
+			name: "Jamie Herrera",
+			company: "Invited Expert",
+			w3cid: 106410
+		},
+		{
+			name: "Julian Kittelson-Aldred",
+			company: "Invited Expert",
+			w3cid: 152973
+		},
+		{
+			name: "Jon Gibbins",
+			company: "Invited Expert",
+			w3cid: 56789
+		},
+		{
+			name: "Kim Patch",
+			company: "Redstart Systems",
+		},
+		{
+			name: "Jeanne Spellman",
+			company: "W3C",
+		},
+		{
+			name: "Kathy Wahlbin",
+			company: "Interactive Accessibility",
+		},
+	],
 	group: "ag",
 	github: "w3c/matf",
   
-  // name (without the @w3.org) of the public mailing to which comments are due
-  wgPublicList: "public-mobile-a11y-tf",
+  	// name (without the @w3.org) of the public mailing to which comments are due
+	wgPublicList: "public-mobile-a11y-tf",
 
 	maxTocLevel: 3,
 
